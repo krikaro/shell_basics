@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo 46 >> family/Tom
+echo 38 >> family/Katty
+echo 20 >> family/Mike
+echo 16 >> family/Marcel
+echo 78 >> family/Carl

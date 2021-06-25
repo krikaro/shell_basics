@@ -1,0 +1,7 @@
+#!/bin/bash
+mkdir family
+echo father > family/Tom
+echo mother > family/Katty
+echo son > family/Mike
+echo daugther > family/Marcel
+echo granpa > family/Carl
