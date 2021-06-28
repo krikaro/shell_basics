@@ -1,0 +1,7 @@
+#!/bin/bash
+if [[ "$1" < "$2" ]]
+then
+    echo "menor en orden alfabetico"
+else
+    echo "mayor alfabeticamente"
+fi
