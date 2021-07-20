@@ -1,0 +1,13 @@
+#!/bin/bash
+while read -r line
+do
+    line_lower=$(echo "$line" | tr [:upper:] [:lower:])
+    pattern=$(echo $1 | tr [:upper:] [:lower:])
+    if [[ "$line_lower" == *"$pattern"* ]]
+        then
+	    echo $line | tr [:lower:] [:upper:]
+    else
+	echo $line
+    fi
+done < fugaz
+

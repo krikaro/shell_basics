@@ -1,0 +1,5 @@
+#!/bin/bash
+if [ -f /home/krikaro/shell_basics/0x01-math/8-agv ]
+then
+	echo "8-agv file exits, yujuu"
+fi

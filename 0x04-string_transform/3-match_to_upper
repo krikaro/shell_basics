@@ -1,0 +1,11 @@
+#!/bin/bash
+while read -r line
+do
+    if [[ "$line" == *is* ]]
+    then
+	echo $line | tr [:lower:] [:upper:]
+    else
+	echo $line
+	fi
+done < text > zen_is
+
